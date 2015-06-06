@@ -1,3 +1,6 @@
+# Used to display hidden directories.
+ls -a
+
 # opened history of command line in new page
 history | less
 
