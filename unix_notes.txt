@@ -99,7 +99,10 @@ subl ~/.config/fish/config.fish
 subl ~
 subl
 which subl
+
+#That is for you to figure out
 which samantha
+
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 brew info fish
 brew in
