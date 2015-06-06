@@ -1,3 +1,50 @@
+#listed what branch we were in
+git branch
+
+#Moved to the new 'git notes branch'
+git checkout git-notes
+
+#created a new branch
+git branch git-notes
+
+#committed changes
+git commit -m "Added comment about displaying hidden files."
+
+#checked the status of the file
+git status
+
+#staged the file
+git add unix_notes.txt
+
+#opened notes in submlime text
+subl unix_notes.txt
+git log
+
+#commited new changes to git
+git commit -m "Changed notes."
+
+#still didn't note the changes
+git diff -- staged
+
+# tried to note the changes to a commit, but spelled it wrong
+git diff -- stagedk
+
+# commited a file to git
+git commit -m "Add initial verision of unix notes."
+
+# Moved back a level
+cd ..
+ls
+
+#changed directories to be in .git
+cd .git
+
+#listed everything in .git
+ls -a
+
+#initialized git
+git init
+
 # Used to display hidden directories.
 ls -a
 
