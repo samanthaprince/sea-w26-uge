@@ -124,6 +124,8 @@ fish_update_completions
 curl -fsSL http://git.io/beJs | ruby
 which fish
 echo $SHELL
+
+# all of this is old and incorrect.
 echo $SH
 chsh -s /usr/local/bin/fish
 popd
