@@ -1,0 +1,137 @@
+# opened history of command line in new page
+history | less
+
+history
+
+# clears the terminal screen
+clear
+
+# changed directories
+cd ~
+cd ..
+..
+ls
+cd Documents
+cd CodeFellows/
+pwd
+cd Downloads/
+cd
+c
+cd /
+cd~
+ls -R
+ls -Sl
+ls -S
+man ls
+ls -ltr
+ls -rt
+ls -r
+ls -lt
+ls -l
+ls -t
+cd/
+
+# downloaded, installed and set up fish, git, command
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email
+git config --global user.name
+git config --global user.email "Samanthaprince928@gmail.com"
+git config --global user.name 'Samantha Prince'
+git config--global user.name "Samantha"
+git --version
+git config --global user.name 'YOUR FULL NAME'
+brew install git
+echo $PATH
+subl /etc/paths
+echo $EDITOR
+subl ~/.config/fish/config.fish
+subl ~
+subl
+which subl
+which samantha
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fish
+brew in
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+which fish
+echo $SHELL
+echo $SH
+chsh -s /usr/local/bin/fish
+popd
+pushd "$HOME"
+append_plist_var PATH "/usr/local/git/bin" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+append_path () {   input="$1";   value="$2";   if ! echo $input | /usr/bin/egrep -q "(^|:)$value($|:)" ; then      if [ "$3" = "after" ] ; then         echo $input:$value;      else         echo $value:$input;      fi;   else     echo $input;   fi; }
+git config --global user.name "Samantha"
+perl -v
+mkdir CodeFellows
+ls -la
+append_plist_var PATH "/usr/local/git/bin" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin"
+ls: moving_around.txt
+ls - l moving_around.txt
+ls moving_around.txt
+clear
+subl moving_around.txt
+ls
+history > moving_around.txt
+history | less
+history
+cd ~
+cd ..
+..
+cd Documents
+cd CodeFellows/
+pwd
+cd Downloads/
+cd
+c
+cd /
+cd~
+ls -R
+ls -Sl
+ls -S
+man ls
+ls -ltr
+ls -rt
+ls -r
+ls -lt
+ls -l
+ls -t
+cd/
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email
+git config --global user.name
+git config --global user.email "Samanthaprince928@gmail.com"
+git config --global user.name 'Samantha Prince'
+git config--global user.name "Samantha"
+git --version
+git config --global user.name 'YOUR FULL NAME'
+brew install git
+echo $PATH
+subl /etc/paths
+echo $EDITOR
+subl ~/.config/fish/config.fish
+subl ~
+subl
+which subl
+which samantha
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fish
+brew in
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+which fish
+echo $SHELL
+echo $SH
+chsh -s /usr/local/bin/fish
+popd
+pushd "$HOME"
+append_plist_var PATH "/usr/local/git/bin" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+append_path () {   input="$1";   value="$2";   if ! echo $input | /usr/bin/egrep -q "(^|:)$value($|:)" ; then      if [ "$3" = "after" ] ; then         echo $input:$value;      else         echo $value:$input;      fi;   else     echo $input;   fi; }
+git config --global user.name "Samantha"
+perl -v
+mkdir CodeFellows
+ls -la
+append_plist_var PATH "/usr/local/git/bin" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin"
